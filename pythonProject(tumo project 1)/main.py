@@ -5,7 +5,7 @@ template = [
     ]
 
 x = input('please choose a template(1,2or 3)')
-if x != '1' and x != '2' and x != '3':
+while x != '1' and x != '2' and x != '3':
     x = input('please choose a valid number')
 if x == '1':
     string = template[0]
